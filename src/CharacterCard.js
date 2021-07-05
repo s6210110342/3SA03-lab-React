@@ -19,7 +19,6 @@ export default function CharacterCard(props) {
         }
     })
     
-}
     const className = `card ${active ? 'activeCard': ''}`
     
     return (
