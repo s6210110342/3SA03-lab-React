@@ -18,9 +18,8 @@ const room4 = "window";
 const fruit = "orange";
 const fruit1 = "coconut";
 const fruit2 = "pineapple";
-const fruit3 = "orange";
-const fruit4 = "orange";
-const fruit5 = "orange";
+const fruit3 = "rambutan";
+const fruit4 = "mangosteen";
 
 function App() {
   return (
@@ -97,15 +96,18 @@ function App() {
         <WordCard value={fruit1} />
       </center>
       <center>
-        <p>Hint: เป็นช่องเปิดบนผนังหรือ ประตู ที่ยอมให้แสงผ่านห</p>
+        <p>Hint: เป็นผลไม้ที่มีตาหลายตาอยู่บนเปลือก</p>
         <WordCard value={fruit2} />
       </center>
       <center>
-        <p>Hint: เป็นช่องเปิดบนผนังหรือ ประตู ที่ยอมให้แสงผ่านห</p>
+        <p>Hint: เป็นผลไม้ทีมีขนอยู่รอบเปลือก</p>
         <WordCard value={fruit3} />
       </center>
       <center>
-        <p>Hint: เป็นช่องเปิดบนผนังหรือ ประตู ที่ยอมให้แสงผ่านห</p>
+        <p>
+          Hint: มีเปลือกนอกที่ค่อนข้างแข็งสีม่วง
+          มีกลีบเลี้ยงเป็นสีเขียวอมเหลืองติดบนผล
+        </p>
         <WordCard value={fruit4} />
       </center>
     </div>
