@@ -25,6 +25,10 @@ h2 {
   text-align: center;
   background-color: rgba(70, 70, 70, 0.884);
   font-size: 20px;
+  margin-top: 200px;
+  margin-bottom: -0.5px;
+  margin-left: -1px;
+  color: rgb(235, 225, 208);
 }
 .button {
   background-color: rgb(70, 70, 70);

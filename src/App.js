@@ -112,9 +112,11 @@ function App() {
         <WordCard value={fruit4} />
       </center>
 
-      <h2>Create by Sikarin Samngamthong</h2>
-      <h2>ID: 6210110342</h2>
-      <h2>Lab3SA03 Section 01</h2>
+      <h2 class="h2">
+        Create by Sikarin Samngamthong <br />
+        ID: 6210110342 <br />
+        Lab3SA03 Section 01
+      </h2>
     </div>
   );
 }
