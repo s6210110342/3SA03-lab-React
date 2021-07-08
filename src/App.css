@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(206, 183, 141);
+  /* background-color: rgb(206, 183, 141); */
+  background-image: url("./image/background1.jpg");
+  background-image: fix;
   font-family: "Courier New", Courier, monospace;
   border: 10px solid rgba(70, 70, 70, 0.884);
 }
@@ -29,6 +31,8 @@ h2 {
   margin-bottom: -0.5px;
   margin-left: -1px;
   color: rgb(235, 225, 208);
+  font-family: Arial;
+  padding: 28px;
 }
 .button {
   background-color: rgb(70, 70, 70);
