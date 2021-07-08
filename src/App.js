@@ -17,7 +17,7 @@ const room4 = "window";
 
 const fruit = "orange";
 const fruit1 = "coconut";
-const fruit2 = "";
+const fruit2 = "pineapple";
 const fruit3 = "orange";
 const fruit4 = "orange";
 const fruit5 = "orange";
