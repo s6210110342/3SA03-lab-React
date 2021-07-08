@@ -87,6 +87,7 @@ function App() {
         <WordCard value={room4} />
       </center>
 
+      <center class="button">Fruits</center>
       <center>
         <p>Hint: ผลมีรสเปรี้ยวหรือหวาน มักจะมีแคลเซียมหรือวิตามิน</p>
         <WordCard value={fruit} />
@@ -110,6 +111,10 @@ function App() {
         </p>
         <WordCard value={fruit4} />
       </center>
+
+      <h2>Create by Sikarin Samngamthong</h2>
+      <h2>ID: 6210110342</h2>
+      <h2>Lab3SA03 Section 01</h2>
     </div>
   );
 }
