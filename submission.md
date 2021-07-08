@@ -2,6 +2,8 @@
 
 ## Code in App.js
 
+> code เฉพาะบางส่วน เพื่อนำมาอธิบาย
+
 ```js
 import React from "react";
 import "./App.css";
@@ -9,35 +11,15 @@ import WordCard from "./WordCard";
 
 const word = "deer";
 ...
-const room = "table";
-...
-const fruit = "orange";
-...
 
 function App() {
   return (
     <div>
       <h1>Logic Games</h1>
-
       <center class="button">Animals</center>
       <center>
-        <p>Hint: เป็นสัตว์สี่เท้า มีเขาสองเขาแต่ปลายเขามีหกยอด</p>
+        <p>Hint: เป็นสัตว์สี่เท้ามีเขาสองเขาแต่ปลายเขามีหกยอด</p>
         <WordCard value={word} />
-      </center>
-      ...
-      <center class="button">Class Room</center>
-      <center>
-        <p>
-          Hint: ใช้สำหรับวางสิ่งของอย่างเช่น อาหาร
-          โดยความสูงมีความพอเหมาะสำหรับการนั่ง
-        </p>
-        <WordCard value={room} />
-      </center>
-     ...
-      <center class="button">Fruits</center>
-      <center>
-        <p>Hint: ผลมีรสเปรี้ยวหรือหวาน มักจะมีแคลเซียมหรือวิตามิน</p>
-        <WordCard value={fruit} />
       </center>
       ...
 
@@ -53,9 +35,13 @@ function App() {
 export default App;
 ```
 
-###
+- ในการเขียน React ทุกครั้งจะต้อง `import react` เสมอ โดยจะมีการ import ว่า
 
-ในส่วนของหน้านี้จะเป็นการสร้างคำขึ้นมาเพื่อให้ผู้เล่นได้เล่นเกมส์ที่ทางโปรแกรมได้ Random คำให้ผู้เล่นได้เล่นกัน
+```js
+import React from "react";
+import "./App.css";
+/*ในส่วนนี้จะเป็นการ import จาก App.css ซึ่งจะอยู่ในหัวข้อ Code in App.css*/
+```
 
 - ตัวแปรที่ใช้ในการสร้างคำคือ `const` ตัวอย่างเช่น
 
@@ -63,4 +49,8 @@ export default App;
 const word = "deer";      ---(ex1)
 ```
 
-### ใน ex1 นี้คือจะเป็นการสร้างคำคำว่า `deer` โดยมีตัวแปร const ชื่อว่า `word`
+ใน ex1 นี้คือจะเป็นการสร้างคำคำว่า `deer` โดยมีตัวแปรชื่อว่า `word`
+
+- ในส่วนของ `function` นั้น จะเป็นรายละเอียดต่างๆที่ส่ง Output ให้ออกไปที่หน้าเว็บ
+  - ในส่วน class ที่ชื่อว่า `button` นั้น จะเป็นการแยกหมวดหมู่ในการเล่นเกมส์ ว่าคำๆนั้นที่ผู่เล่นได้เล่นอยู่นั้นอยู่ในหมวดไหน ซึ่งเป็นลักษณะการใช้คำในการเล่นได้
+    ![1](1.png)
