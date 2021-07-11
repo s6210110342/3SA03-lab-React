@@ -61,7 +61,7 @@ const word = "deer";
   ....
 ```
 
-# Code in CharacterCard.js
+# ((Code in CharacterCard.js))
 
 - ```js
   const activate = () => {
@@ -82,7 +82,7 @@ const word = "deer";
 
   ในส่วนนี้จะเป็นการตรวจสอบว่า เมื่อ attempt เปลี่ยนไป component จะต้องถูก render ใหม่อีกครั้ง
 
-# Code in WordCard.js
+# ((Code in WordCard.js))
 
 - ```js
   import _ from "lodash";
