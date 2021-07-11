@@ -21,16 +21,27 @@ const fruit2 = "pineapple";
 const fruit3 = "rambutan";
 const fruit4 = "mangosteen";
 
+const newWin = () => {
+  window.location.reload();
+};
+
 function App() {
   return (
     <div>
       <h1>Logic Games</h1>
+
+      <center>
+        <button className="newWin" onClick={newWin}>
+          Reset Page
+        </button>
+      </center>
 
       <center class="button">Animals</center>
       <center>
         <p>Hint: เป็นสัตว์สี่เท้า มีเขาสองเขาแต่ปลายเขามีหกยอด</p>
         <WordCard value={word} />
       </center>
+
       <center>
         <p>Hint: ขนาดเล็ก มีฟันแทะ อยู่ทั่วไปตามบ้านเรือนและในถิ่นธรรมชาติ</p>
         <WordCard value={word1} />
